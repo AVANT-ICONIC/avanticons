@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'avanticon';
+  src:  url('fonts/avanticon.eot?mruhpd');
+  src:  url('fonts/avanticon.eot?mruhpd#iefix') format('embedded-opentype'),
+    url('fonts/avanticon.ttf?mruhpd') format('truetype'),
+    url('fonts/avanticon.woff?mruhpd') format('woff'),
+    url('fonts/avanticon.svg?mruhpd#avanticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.avanticons {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'avanticon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.avanticon-phone:before {
+  content: "\1f4de";
+}
+.avanticon-globe:before {
+  content: "\1f310";
+}
+.avanticon-heart:before {
+  content: "\1f499";
+}
+.avanticon-mail:before {
+  content: "\1f4e7";
+}
+.avanticon-menu:before {
+  content: "\e904";
+}
+.avanticon-filter:before {
+  content: "\e905";
+}
+.avanticon-dots:before {
+  content: "\e906";
+}
+.avanticon-user-circle:before {
+  content: "\e907";
+}
+.avanticon-user:before {
+  content: "\e908";
+}
+.avanticon-frame:before {
+  content: "\e909";
+}
+.avanticon-home:before {
+  content: "\e90a";
+}
+.avanticon-settings:before {
+  content: "\e90b";
+}
+.avanticon-share:before {
+  content: "\e90c";
+}
+.avanticon-edit:before {
+  content: "\e90d";
+}
